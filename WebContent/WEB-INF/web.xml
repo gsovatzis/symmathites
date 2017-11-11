@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>symmathites</display-name>
+  <welcome-file-list>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+	<servlet>
+		<servlet-name>RegisterAction</servlet-name>
+		<servlet-class>symmathites.actions.RegisterAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RegisterAction</servlet-name>
+		<url-pattern>/RegisterAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginAction</servlet-name>
+		<servlet-class>symmathites.actions.LoginAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/LoginAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LogoutAction</servlet-name>
+		<servlet-class>symmathites.actions.LogoutAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LogoutAction</servlet-name>
+		<url-pattern>/LogoutAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchStudentsAction</servlet-name>
+		<servlet-class>symmathites.actions.SearchStudentsAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchStudentsAction</servlet-name>
+		<url-pattern>/SearchStudentsAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CreateGroupAction</servlet-name>
+		<servlet-class>symmathites.actions.CreateGroupAction</servlet-class>	
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CreateGroupAction</servlet-name>
+		<url-pattern>/CreateGroupAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteGroupAction</servlet-name>
+		<servlet-class>symmathites.actions.DeleteGroupAction</servlet-class>	
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DeleteGroupAction</servlet-name>
+		<url-pattern>/DeleteGroupAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyProfileAction</servlet-name>
+		<servlet-class>symmathites.actions.MyProfileAction</servlet-class>	
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MyProfileAction</servlet-name>
+		<url-pattern>/MyProfileAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteCommentAction</servlet-name>
+		<servlet-class>symmathites.actions.DeleteCommentAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DeleteCommentAction</servlet-name>
+		<url-pattern>/DeleteCommentAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveProfileAction</servlet-name>
+		<servlet-class>symmathites.actions.SaveProfileAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SaveProfileAction</servlet-name>
+		<url-pattern>/SaveProfileAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StudentWallAction</servlet-name>
+		<servlet-class>symmathites.actions.StudentWallAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>StudentWallAction</servlet-name>
+		<url-pattern>/StudentWallAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PostCommentAction</servlet-name>
+		<servlet-class>symmathites.actions.PostCommentAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PostCommentAction</servlet-name>
+		<url-pattern>/PostCommentAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditGroupAction</servlet-name>
+		<servlet-class>symmathites.actions.EditGroupAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>EditGroupAction</servlet-name>
+		<url-pattern>/EditGroupAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteGroupUserAction</servlet-name>
+		<servlet-class>symmathites.actions.DeleteGroupUserAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DeleteGroupUserAction</servlet-name>
+		<url-pattern>/DeleteGroupUserAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateGroupAction</servlet-name>
+		<servlet-class>symmathites.actions.UpdateGroupAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UpdateGroupAction</servlet-name>
+		<url-pattern>/UpdateGroupAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SyllogosAction</servlet-name>
+		<servlet-class>symmathites.actions.SyllogosAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SyllogosAction</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ActivateUserAction</servlet-name>
+		<servlet-class>symmathites.actions.ActivateUserAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ActivateUserAction</servlet-name>
+		<url-pattern>/ActivateUserAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeActivateUserAction</servlet-name>
+		<servlet-class>symmathites.actions.DeActivateUserAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DeActivateUserAction</servlet-name>
+		<url-pattern>/DeActivateUserAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteUserAction</servlet-name>
+		<servlet-class>symmathites.actions.DeleteUserAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DeleteUserAction</servlet-name>
+		<url-pattern>/DeleteUserAction</url-pattern>
+	</servlet-mapping>
+	
+	<context-param>
+		<param-name>dburl</param-name>
+		<param-value>jdbc:mysql://localhost:3306/symmathites</param-value>
+	</context-param>
+		
+	<context-param>
+		<param-name>dbuser</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>dbpass</param-name>
+		<param-value>$0v@tz1$</param-value>
+	</context-param>
+	
+</web-app>
