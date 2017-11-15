@@ -197,7 +197,7 @@
 	
 	<context-param>
 		<param-name>dbpass</param-name>
-		<param-value>$0v@tz1$</param-value>
+		<param-value>mypassword</param-value>
 	</context-param>
 	
 </web-app>
