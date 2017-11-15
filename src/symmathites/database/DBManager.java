@@ -37,10 +37,6 @@ public class DBManager {
 	    try {
 	    	conn = DriverManager.getConnection(DBURL,userName,Password);
 	    	
-	    	/* con = DriverManager.getConnection(
-	          "jdbc:mysql://ornella-xp2:3306/exercise2", // JOHN: put localhost here instead of ORNELLA
-	          "root", "cosmo");	// JOHN: change password to root here */
-	    	
 	    } catch (Exception e2) {
 	    	errorMessages = "Could not establish connection with the Database Server: <br>"
 	          + e2.getMessage();
