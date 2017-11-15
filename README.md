@@ -10,4 +10,4 @@ Installation instructions:
 - Build and deploy the WAR file on Tomcat (tested with v8.0)
 
 To approve a registration:
-- Goto http://<<server address>>:8080/symmathites/admin  
+- Goto http://localhost:8080/symmathites/admin  
